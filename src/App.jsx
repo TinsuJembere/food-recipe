@@ -14,7 +14,7 @@ function App() {
         <GlobalState> 
           <NavBar />
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/Food-Recipe-App' element={<Home />} />
             <Route path='/favorites' element={<Favorites />} />
             <Route path='/recipe-item/:id' element={<Details />} />
           </Routes>
